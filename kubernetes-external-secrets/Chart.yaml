@@ -1,0 +1,13 @@
+apiVersion: v1
+name: kubernetes-external-secrets
+version: 0.0.1
+appVersion: 3.1.0
+description: Install and configure kubernetes-external-secrets on Kubernetes.
+keywords:
+  - kuberentes-external-secrets
+sources:
+  - git@github.com:TechTalkFridays/aws-eks-quickstart.git
+engine: gotpl
+maintainers:
+- name: Joel Damata
+  email: joel.damata94@gmail.com
