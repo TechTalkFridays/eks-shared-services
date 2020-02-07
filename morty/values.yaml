@@ -1,2 +1,2 @@
 ---
-server: https://32EFC7BB7B40294C4D38E3E73BAC1EB3.sk1.us-east-1.eks.amazonaws.com
+server: https://kubernetes.default.svc
