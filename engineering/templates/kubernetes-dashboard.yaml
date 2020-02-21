@@ -7,7 +7,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: shared-services
+    namespace: kube-system
     server: {{ .Values.server }}
   project: shared-services
   source:
