@@ -33,6 +33,7 @@ spec:
             - --publish-service=$(POD_NAMESPACE)/{{ .Release.Name }}
             - --annotations-prefix=nginx.ingress.kubernetes.io
             - --ingress-class={{ .Values.ingressClass }}
+            - --enable-ssl-passthrough
           securityContext:
             allowPrivilegeEscalation: true
             capabilities:
