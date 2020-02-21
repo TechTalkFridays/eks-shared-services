@@ -16,7 +16,6 @@ spec:
         app: cluster-autoscaler
     spec:
       serviceAccountName: cluster-autoscaler
-      priorityClassName: system-cluster-critical
       containers:
         - image: {{ .Values.image }}
           name: cluster-autoscaler
