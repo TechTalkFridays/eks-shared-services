@@ -1,2 +1,3 @@
 ---
 ingressClass: nginx-external
+replicas: 3
