@@ -25,5 +25,5 @@ The controller uses and IAM role to grab secrets from secret manager
 
 ## Deployment
 ```bash
-helm install kubernetes-external-secrets . -f helm_vars/morty/values.yaml
+helm install kubernetes-external-secrets . -f helm_vars/engineering/values.yaml
 ```

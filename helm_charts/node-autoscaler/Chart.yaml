@@ -1,10 +1,10 @@
 apiVersion: v1
-name: kubernetes-external-secrets
+name: node-autoscaler
 version: 0.0.1
-appVersion: 3.1.0
-description: Install and configure kubernetes-external-secrets on Kubernetes.
+appVersion: 1.14.6
+description: Install and configure node-autoscaler
 keywords:
-  - kuberentes-external-secrets
+  - node-autoscaler
 sources:
   - git@github.com:TechTalkFridays/eks-shared-services.git
 engine: gotpl
