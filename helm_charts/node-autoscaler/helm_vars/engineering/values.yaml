@@ -2,4 +2,4 @@
 eksCluster: engineering
 image: gcr.io/google-containers/cluster-autoscaler:v1.14.6
 replicas: 1
-iamRole: arn:aws:iam::089522539631:role/clusterAutoscaler
+#iamRole: arn:aws:iam::089522539631:role/clusterAutoscaler

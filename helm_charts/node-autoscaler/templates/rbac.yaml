@@ -5,8 +5,8 @@ metadata:
   labels:
     k8s-addon: cluster-autoscaler.addons.k8s.io
     k8s-app: cluster-autoscaler
-  annotations:
-    eks.amazonaws.com/role-arn: {{ .Values.iamRole }}
+  #annotations:
+    #eks.amazonaws.com/role-arn: {{ .Values.iamRole }}
   name: cluster-autoscaler
   namespace: {{ .Release.Namespace }}
 ---

@@ -7,8 +7,8 @@ metadata:
   labels:
     app: kubernetes-external-secrets
     chart: kubernetes-external-secrets
-  annotations:
-    eks.amazonaws.com/role-arn: "{{ .Values.iamRole }}"
+  #annotations:
+    #eks.amazonaws.com/role-arn: "{{ .Values.iamRole }}"
 ---
 apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: ClusterRole

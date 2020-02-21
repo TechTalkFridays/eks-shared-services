@@ -1,5 +1,5 @@
 ---
-iamRole: arn:aws:iam::089522539631:role/kubernetes-external-secrets
+#iamRole: arn:aws:iam::089522539631:role/kubernetes-external-secrets
 image: godaddy/kubernetes-external-secrets:3.1.0
 replicas: 1
 region: us-east-1
