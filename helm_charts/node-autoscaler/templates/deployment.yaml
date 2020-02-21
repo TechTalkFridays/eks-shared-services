@@ -42,7 +42,7 @@ spec:
             - --expander=most-pods
             - --balance-similar-node-groups
             - --scale-down-utilization-threshold=0.3
-            - --node-group-auto-discovery=asg:tag=k8s.io/cluster-autoscaler/enabled,kubernetes.io/cluster/{{ .Values.eksCluster }}
+            - --node-group-auto-discovery=asg:tag=k8s.io/cluster-autoscaler/enabled,k8s.io/cluster-autoscaler/{{ .Values.eksCluster }}
           volumeMounts:
             - name: ssl-certs
               mountPath: /etc/ssl/certs/ca-bundle.crt
